@@ -1,2 +1,2 @@
 #!/bin/bash
-cat c_correction | rm c_correction
+gcc -E $CFILE -o c
